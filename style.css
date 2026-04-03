@@ -1,0 +1,97 @@
+img   {
+    height: 150px;
+    width: 200px;
+}
+
+li {
+    display: flex;
+    gap: 25px; 
+}
+
+body {
+    
+}
+.menu {
+    display: flex;
+    gap: 25px; 
+    background-color: #E6E8E6;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+header {
+    display: flex;              
+    justify-content: space-between;
+    align-items: center;       
+}
+nav {
+    display: flex;
+   align-items: center;
+    justify-content: center ;
+    background-color: #E6E8E6;
+}
+nav  h2 {
+    display: flex;
+   align-items: center;
+    justify-content: center ;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s; 
+}
+button:hover {
+    transform: scale(1.3);
+}
+
+.photo img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    object-fit: fill;
+    height: 600px;
+    width: 100%;
+}
+.img2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+    gap: 40px;          /* расстояние между товарами */
+    flex-wrap: wrap;
+}
+
+p {
+    
+    font-size: 22px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.old-price {
+    text-decoration: line-through; /* зачеркнуто */
+    color: gray;
+    font-size: 18px;
+}
+
+.new-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.discount {
+    background: red;
+    color: white;
+    padding: 3px 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
