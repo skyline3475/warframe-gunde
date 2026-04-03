@@ -89,6 +89,7 @@ body {
     border-radius: 12px;
     transition: 0.3s;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    
 }
 
 .card:hover {
@@ -105,24 +106,29 @@ body {
     font-size: 20px;     
     font-weight: 600;    
     margin: 10px 0;
+    text-align: center;
 }
 
 .discount {
     background: red;
     padding: 4px 8px;
     border-radius: 6px;
+    text-align: center;
 }
 .price {
     margin-top: 10px;
+    text-align: center;
 }
 
 .old-price {
     text-decoration: line-through;
     color: gray;
+    text-align: center;
 }
 .new-price {
     font-size: 22px;
     font-weight: bold;
+    text-align: center;
 }
 
 footer {
